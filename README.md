@@ -11,3 +11,13 @@ instalar esta extension `ES7 React/Redux/GraphQL/React-Native snippets`
 
 ahora a diferencia de html, que se pone html:5, aqui se pone rfc
 
+para subir a vercel se debe poner `npm install -g vercel`
+luego `vercel login`
+
+donde va a pedir el nombre del proyecto, en este caso nodejs
+luego se pone `vercel`
+en el package json se debe poner en la parte de `script` `"deploy": "vercel --prod"`
+
+y por ultimo `npm run deploy`
+
+
