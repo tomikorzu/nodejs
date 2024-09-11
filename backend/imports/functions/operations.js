@@ -7,9 +7,7 @@ const substract = (a, b) => {
 const multiply = (a, b) => {
   return a * b;
 };
-function divide(a, b){
+const divide = (a, b) => {
   return a / b;
 };
-export default { sum, substract, multiply };
-
-module.exports = {divide}
+export default { sum, substract, multiply, divide };
